@@ -1,0 +1,14 @@
+1.
+python -m pip install Django
+2.
+django-admin startproject jctf .
+3.
+python manage.py runserver
+4.
+python manage.py startapp polls
+5.
+py manage.py makemigrations polls
+6.
+py manage.py migrate
+7.
+python manage.py shell
